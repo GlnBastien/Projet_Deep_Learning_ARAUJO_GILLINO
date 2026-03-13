@@ -1,0 +1,7 @@
+openai-whisper
+pandas
+scikit-learn
+matplotlib
+seaborn
+transformers
+torch
