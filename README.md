@@ -3,35 +3,35 @@
 # Sujet 2
 
 ## Description du projet
-Ce projet a été réalisé dans le cadre du module Deep Learning a l'ELISA Aerospace. 
-L'objectif est de concevoir un systeme d'intelligence artificielle capable de detecter et classifier en temps reel le niveau d'urgence d'une communication radio aeronautique.
+Ce projet a été réalisé dans le cadre du module Deep Learning à l'ELISA Aerospace. 
+L'objectif est de concevoir un systeme d'intelligence artificielle capable de détecter et classifier en temps réel le niveau d'urgence d'une communication radio aéronautique.
 
-Le systeme prend en entree un flux audio (microphone), le transcrit en texte, et classifie la situation selon 3 niveaux de gravité :
+Le système prend en entrée un flux audio (microphone), le transcrit en texte, et classifie la situation selon 3 niveaux de gravité :
 - NORMAL : Communication de routine
 - URGENCY : Situation d'urgence (Pan Pan)
-- DISTRESS : Situation de detresse (Mayday)
+- DISTRESS : Situation de détresse (Mayday)
 
 ## Architecture technique
 Notre pipeline de traitement repose sur :
 1. Speech-to-Text : Modele Whisper pour la transcription audio en texte, robuste aux bruits de fond.
 2. Classification NLP : Modele Transformer XLM-RoBERTa fine-tune sur un dataset personnalise de 1000 communications radio (enregistrements humains et voix generees par IA via ElevenLabs).
 3. Baselines de comparaison : 
-   - Recherche de mots-cles
-   - Modele classique (TF-IDF + Regression Logistique)
+   - Recherche de mots-clés
+   - Modèle classique (TF-IDF + Régression Logistique)
 
-## Structure du depot
-- /data/ : Contient les donnees d'entrainement et de test (fichiers .jsonl avec transcriptions).
-- /report/ : Contient le rapport complet du projet au format PDF detaillant la methodologie et l'analyse des resultats.
-- notebook.ipynb : Le code source principal contenant le nettoyage des donnees, l'entrainement des modeles et l'evaluation.
+## Structure du dépot
+- /data/ : Contient les données d'entrainement et de test (fichiers .jsonl avec transcriptions).
+- /report/ : Contient le rapport complet du projet au format PDF détaillant la méthodologie et l'analyse des résultats.
+- notebook.ipynb : Le code source principal contenant le nettoyage des données, l'entrainement des modèles et l'évaluation.
 - requirements.txt : Liste des bibliohèques nécessaires pour executer le projet.
 
 ## Installation et Utilisation
 Ce projet a été developpé principalement sur Google Colab. Pour l'executer localement :
 
-1. Clonez ce depot :
+1. Clonez ce dépot :
    ```bash
    git clone https://github.com/GlnBastien/Projet_Deep_Learning_ARAUJO_GILLINO.git
-2. Installez les bibliotheques requises :
+2. Installez les bibliothèques requises :
    ```bash
    pip install -r requirements.txt
 3. Lancez le fichier notebook.ipynb dans votre environnement Jupyter ou Google Colab.
