@@ -2,7 +2,7 @@
 
 # Sujet 2
 
-## Déscription du projet
+## Description du projet
 Ce projet a été réalisé dans le cadre du module Deep Learning à l'ELISA Aerospace. 
 L'objectif est de concevoir un systeme d'intelligence artificielle capable de détecter et classifier en temps réel le niveau d'urgence d'une communication radio aéronautique.
 
