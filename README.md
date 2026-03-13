@@ -30,4 +30,16 @@ Ce projet a été developpé principalement sur Google Colab. Pour l'executer lo
 
 1. Clonez ce depot :
    ```bash
-   git clone [https://github.com/](https://github.com/)[Ton_Nom_D_Utilisateur]/[Nom_Du_Depot].git
+   git clone https://github.com/GlnBastien/Projet_Deep_Learning_ARAUJO_GILLINO.git
+2. Installez les bibliotheques requises :
+   ```bash
+   pip install -r requirements.txt
+3. Lancez le fichier notebook.ipynb dans votre environnement Jupyter ou Google Colab.
+
+Résultats clés
+Sur notre jeu de données de 1000 audios, le modèle XLM-RoBERTa a surpassé les baselines classiques, démontrant une excellente robustesse. Il atteint une précision globale d'environ 98.6%, tout en comprenant le contexte des phrases.
+
+Demonstration
+Une démonstration vidéo du systeme en direct est disponible ici : [Inserer le lien YouTube/Drive ou indiquer le chemin dans le dossier demo].
+
+Projet réalisé par Alexandre Araujo et Bastien Gillino - ELISA Aerospace.
