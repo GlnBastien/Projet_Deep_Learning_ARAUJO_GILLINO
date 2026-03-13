@@ -2,7 +2,7 @@
 
 # Sujet 2
 
-## Description du projet
+## Déscription du projet
 Ce projet a été réalisé dans le cadre du module Deep Learning à l'ELISA Aerospace. 
 L'objectif est de concevoir un systeme d'intelligence artificielle capable de détecter et classifier en temps réel le niveau d'urgence d'une communication radio aéronautique.
 
@@ -25,7 +25,7 @@ Notre pipeline de traitement repose sur :
 - notebook.ipynb : Le code source principal contenant le nettoyage des données, l'entrainement des modèles et l'évaluation.
 - requirements.txt : Liste des bibliohèques nécessaires pour executer le projet.
 
-## Installation et Utilisation
+## Installation et utilisation
 Ce projet a été developpé principalement sur Google Colab. Pour l'executer localement :
 
 1. Clonez ce dépot :
