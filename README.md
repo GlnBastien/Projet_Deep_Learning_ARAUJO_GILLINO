@@ -3,8 +3,8 @@
 # Sujet 2
 
 ## Description du projet
-Ce projet a été réalisé dans le cadre du module Deep Learning à l'ELISA Aerospace. 
-L'objectif est de concevoir un systeme d'intelligence artificielle capable de détecter et classifier en temps réel le niveau d'urgence d'une communication radio aéronautique.
+Ce projet a été réalisé dans le cadre du module Deep Learning à ELISA Aerospace. 
+L'objectif est de concevoir un système d'intelligence artificielle capable de détecter et classifier en temps réel le niveau d'urgence d'une communication radio aéronautique.
 
 Le système prend en entrée un flux audio (microphone), le transcrit en texte, et classifie la situation selon 3 niveaux de gravité :
 - NORMAL : Communication de routine
@@ -14,10 +14,10 @@ Le système prend en entrée un flux audio (microphone), le transcrit en texte, 
 ## Architecture technique
 Notre pipeline de traitement repose sur :
 1. Speech-to-Text : Modele Whisper pour la transcription audio en texte, robuste aux bruits de fond.
-2. Classification NLP : Modele Transformer XLM-RoBERTa fine-tune sur un dataset personnalise de 1000 communications radio (enregistrements humains et voix generees par IA via ElevenLabs).
+2. Classification NLP : Modele Transformer XLM-RoBERTa fine-tuné sur un dataset personnalise de 1000 communications radio (enregistrements humains et voix générées par IA via ElevenLabs).
 3. Baselines de comparaison : 
    - Recherche de mots-clés
-   - Modèle classique (TF-IDF + Régression Logistique)
+   - TF-IDF + Régression Logistique
 
 ## Structure du dépot
 - /data/ : Contient les données d'entrainement et de test (fichiers .jsonl avec transcriptions).
