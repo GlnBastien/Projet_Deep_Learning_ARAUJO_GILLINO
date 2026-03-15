@@ -38,12 +38,10 @@ Ce projet a été developpé principalement sur Google Colab. Pour l'executer lo
 
    Le dataset et le dossier checkpoint sont disponible sur Google Drive : https://drive.google.com/drive/folders/1NLbCqAemtOyzWNdCDP7SiS318FY2-N6d?usp=sharing
 
-Résultats clés
-
+Résultats clés : 
 Sur notre jeu de données de 1000 audios, le modèle XLM-RoBERTa a surpassé les baselines classiques, démontrant une excellente robustesse. Il atteint une précision globale d'environ 98.6%, tout en comprenant le contexte des phrases.
 
-Demonstration
-
+Demonstration :
 Une démonstration vidéo du systeme en direct est disponible ici : https://youtu.be/l_TSXpO9590
 
 Projet réalisé par Alexandre Araujo et Bastien Gillino - ELISA Aerospace.
