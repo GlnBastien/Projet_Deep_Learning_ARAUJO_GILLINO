@@ -42,6 +42,6 @@ Résultats clés :
 Sur notre jeu de données de 1000 audios, le modèle XLM-RoBERTa a surpassé les baselines classiques, démontrant une excellente robustesse. Il atteint une précision globale d'environ 98.6%, tout en comprenant le contexte des phrases.
 
 Demonstration :
-Une démonstration vidéo du systeme en direct est disponible ici : https://youtu.be/l_TSXpO9590
+Une démonstration vidéo du système en direct est disponible ici : https://youtu.be/l_TSXpO9590
 
 Projet réalisé par Alexandre Araujo et Bastien Gillino - ELISA Aerospace.
