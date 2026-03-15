@@ -35,6 +35,7 @@ Ce projet a été developpé principalement sur Google Colab. Pour l'executer lo
    ```bash
    pip install -r requirements.txt
 3. Lancez le fichier notebook.ipynb dans votre environnement Jupyter ou Google Colab.
+
    Le dataset et le dossier checkpoint sont disponible sur Google Drive : https://drive.google.com/drive/folders/1NLbCqAemtOyzWNdCDP7SiS318FY2-N6d?usp=sharing
 
 Résultats clés
